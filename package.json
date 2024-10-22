@@ -11,9 +11,11 @@
   "dependencies": {
     "@headlessui/react": "^2.1.10",
     "@heroicons/react": "^2.1.5",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "next": "15.0.0",
     "react": "19.0.0-rc-65a56d0e-20241020",
-    "react-dom": "19.0.0-rc-65a56d0e-20241020"
+    "react-dom": "19.0.0-rc-65a56d0e-20241020",
+    "swiper": "^11.1.14"
   },
   "devDependencies": {
     "@types/node": "^20",

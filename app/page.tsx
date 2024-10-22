@@ -3,6 +3,10 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Category from './Component/Category'
+import Swipe from './Component/Swipe'
+import Community from './Component/Community'
+
 
 const navigation = [
   { name: 'Nos Produits', href: '#' },
@@ -113,15 +117,9 @@ export default function Home() {
       </div>
       <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-          <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            Announcing our next round of funding.{' '}
-            <a href="#" className="font-semibold text-indigo-600">
-              <span aria-hidden="true" className="absolute inset-0" />
-              Read more <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
+        
         </div>
-        <div className="text-center">
+        <div className="text-center">  <Swipe />
           <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
            Bienvenue au <span className="text-pink-600">Dressing de Nadia</span>
           </h1>
@@ -154,7 +152,14 @@ export default function Home() {
           className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
         />
       </div>
-    </div>
+    </div> 
+    <div>
+   <Category />
+   <div>
+   <Community />
+   </div>
   </div>
+  </div>
+ 
   );
 }
