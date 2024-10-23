@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*
+
 .swiper-button-prev, .swiper-button-next {
     color: #000; /* Couleur des flèches */
     font-size: 20px;

@@ -4,13 +4,13 @@ import 'swiper/swiper-bundle.css';
 export default function Swipe() {
   return (
     <div className="bg-white">
-      <div className="mt-10 relative">
+      <div className="mt-2 relative">
         <Swiper
           spaceBetween={50}
           slidesPerView={1}
           navigation={true} // Activer la navigation (flèches)
           pagination={{ clickable: true }} // Pagination avec points
-          className="h-100 w-150 border-radius-2"
+          className="h-75 w-100"
         >
           <SwiperSlide>
             <img
