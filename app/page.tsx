@@ -7,6 +7,7 @@ import Header from './Component/Header'
 
 
 
+
 export default function Home() {
 
 
@@ -70,8 +71,7 @@ export default function Home() {
    <Community />
    </div>
     </div> 
-    
-  
+   
   </div>
  
   );
