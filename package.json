@@ -11,7 +11,9 @@
   "dependencies": {
     "@headlessui/react": "^2.1.10",
     "@heroicons/react": "^2.1.5",
+    "@nextui-org/react": "^2.4.8",
     "@tailwindcss/aspect-ratio": "^0.4.2",
+    "framer-motion": "^11.11.9",
     "next": "15.0.0",
     "react": "19.0.0-rc-65a56d0e-20241020",
     "react-dom": "19.0.0-rc-65a56d0e-20241020",

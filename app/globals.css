@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*
+.swiper-button-prev, .swiper-button-next {
+    color: #000; /* Couleur des flèches */
+    font-size: 20px;
+    top: 50%; /* Centrer verticalement */
+    transform: translateY(-50%);
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #000; /* Couleur des points */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #ff0000; /* Couleur des points actifs */
+  }
+  
