@@ -5,6 +5,7 @@ import Swipe from './Component/Swipe'
 import Community from './Component/Community'
 import Header from './Component/Header'
 import Background from './Component/Background'
+import Banner from './Component/Banner'
 
 
 
@@ -17,8 +18,9 @@ export default function Home() {
     <Header />
 
     <div className="relative isolate px-6 pt-14 lg:px-8">
-  <Background />
+  <Background /><Banner />
       <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
         
         </div>

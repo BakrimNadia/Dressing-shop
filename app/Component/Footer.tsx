@@ -77,16 +77,16 @@ export default function Footer() {
       <div className="px-6 mt-10 text-center text-white font-bold">Suivez-nous sur les réseaux</div>
       <div className="mt-6 flex justify-center gap-x-6">
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-          <FontAwesomeIcon icon={faFacebook} size="2x" />
+          <FontAwesomeIcon icon={faFacebook} className="h-6 w-6" />
         </a>
         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-          <FontAwesomeIcon icon={faInstagram} size="2x" />
+          <FontAwesomeIcon icon={faInstagram} className="h-6 w-6" />
         </a>
         <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-          <FontAwesomeIcon icon={faTwitter} size="2x" />
+          <FontAwesomeIcon icon={faTwitter} className="h-6 w-6" />
         </a>
         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          <FontAwesomeIcon icon={faLinkedin} className="h-6 w-6" />
         </a>
       </div>
       <div className="px-4 mt-5 text-center text-white font-bold">@ Tous droits réservés</div>
