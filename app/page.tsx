@@ -20,12 +20,12 @@ export default function Home() {
   <Background /><Banner />
       <div 
       style={{
-        backgroundImage: 'url(images/shopping.jpg)',
+        backgroundImage: 'url(images/homepage.jpeg)',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
         position: 'relative',
-        opacity: '0.6',
+        zIndex: 1,
       }}
       
       className="max-w-full py-32 sm:py-48 lg:py-56">
@@ -34,23 +34,33 @@ export default function Home() {
         
         
         <div className="text-left">  
-          <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
-           Bienvenue au <span className="text-pink-600">Dressing de Nadia</span>
+          <h1 className="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">
+          Bienvenue au <br /> <span className="text-rose-200">Dressing de Nadia</span>
           </h1>
-          <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat.
+          <p className="mt-8 text-pretty text-lg font-medium text-white sm:text-xl/8">
+            La boutique en ligne de vêtements et accessoires pour femmes
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="#"
-              className="rounded-md bg-pink-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="rounded-md bg-white/20 backdrop-blur-sm px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-rose-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Accès boutique
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-              Nous contacter <span aria-hidden="true">→</span>
+            <a
+              href="#category"
+              className="rounded-md bg-white/20 backdrop-blur-sm px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-rose-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+              Nos collections
             </a>
+
+            <a
+              href="#community"
+              className="rounded-md bg-white/20 backdrop-blur-sm px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-rose-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+              La communauté
+            </a>
+           
           </div>
         </div>
 
@@ -68,10 +78,10 @@ export default function Home() {
           className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
         />
       </div>
-      <div>
+      <div id="category">
    <Category />
    </div>
-   <div>
+   <div id="community">
    <Community />
    </div>
     </div> 

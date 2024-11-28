@@ -3,7 +3,7 @@ import { faFacebook, faInstagram, faTwitter, faLinkedin } from '@fortawesome/fre
 
 export default function Footer() {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-800 py-16 sm:py-24 lg:py-32">
+    <div className="relative isolate overflow-hidden bg-rose-300 py-16 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
           <div className="max-w-xl lg:max-w-lg">
@@ -23,11 +23,11 @@ export default function Footer() {
                 required
                 placeholder="Votre email"
                 autoComplete="email"
-                className="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                className="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-rose-500 sm:text-sm sm:leading-6"
               />
               <button
                 type="submit"
-                className="flex-none rounded-md bg-pink-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                className="flex-none rounded-md bg-pink-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-rose-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
               >
                 Souscrire
               </button>
@@ -36,28 +36,28 @@ export default function Footer() {
           <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
             <div className="flex flex-col items-start">
               <dt className="mt-4 font-semibold text-white"></dt>
-              <dd className="mt-2 leading-7 text-gray-400">
+              <dd className="mt-2 leading-7 text-white">
                 Nos Collections
               </dd>
-              <dd className="mt-2 leading-7 text-gray-400">
+              <dd className="mt-2 leading-7 text-white">
                 Notre communauté
               </dd>
-              <dd className="mt-2 leading-7 text-gray-400">
+              <dd className="mt-2 leading-7 text-white">
                 FAQ
               </dd>
-              <dd className="mt-2 leading-7 text-gray-400">
+              <dd className="mt-2 leading-7 text-white">
                 Contact
               </dd>
             </div>
             <div className="flex flex-col items-start">
               <dt className="mt-4 font-semibold text-white"></dt>
-              <dd className="mt-2 leading-7 text-gray-400">
+              <dd className="mt-2 leading-7 text-white">
                 Nos magasins
               </dd>
-              <dd className="mt-2 leading-7 text-gray-400">
+              <dd className="mt-2 leading-7 text-white">
                Notre politique de remboursement
               </dd>
-              <dd className="mt-2 leading-7 text-gray-400">
+              <dd className="mt-2 leading-7 text-white">
                 Nous rejoindre
               </dd>
               
