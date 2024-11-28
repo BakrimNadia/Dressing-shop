@@ -1,7 +1,6 @@
 'use client'
 
 import Category from './Component/Category'
-import Swipe from './Component/Swipe'
 import Community from './Component/Community'
 import Header from './Component/Header'
 import Background from './Component/Background'
@@ -19,12 +18,22 @@ export default function Home() {
 
     <div className="relative isolate px-6 pt-14 lg:px-8">
   <Background /><Banner />
-      <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div 
+      style={{
+        backgroundImage: 'url(images/shopping.jpg)',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        position: 'relative',
+        opacity: '0.6',
+      }}
+      
+      className="max-w-full py-32 sm:py-48 lg:py-56">
         
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
         
-        </div>
-        <div className="text-center">  <Swipe />
+        
+        <div className="text-left">  
           <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
            Bienvenue au <span className="text-pink-600">Dressing de Nadia</span>
           </h1>
@@ -43,6 +52,8 @@ export default function Home() {
               Nous contacter <span aria-hidden="true">→</span>
             </a>
           </div>
+        </div>
+
         </div>
       </div>
       <div
