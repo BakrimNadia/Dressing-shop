@@ -7,7 +7,7 @@ import { Bars3Icon, XMarkIcon, ShoppingBagIcon, HeartIcon } from '@heroicons/rea
 const navigation = [
     { name: 'Accueil', href: '/' },
     { name: 'Nos Produits', href: '/Products' },
-    { name: 'Collection', href: '#' },
+    { name: 'Communauté', href: '#' },
     { name: 'A propos', href: '#' },
     { name: 'Contact', href: '/Contact' },
 ]
@@ -59,7 +59,7 @@ export default function Header() {
             </a>
 
             {/* Log in button */}
-            <button className="bg-pink-500 px-3">
+            <button className="bg-rose-400 px-3">
             <a href="#" className="text-sm font-bold leading-6 text-white">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
@@ -79,6 +79,14 @@ export default function Header() {
                   className="h-8 w-auto"
                 />
               </a>
+              <a href="#" className="text-gray-700 hover:text-gray-900">
+              <HeartIcon className="h-6 w-6" aria-hidden="true" />
+            </a>
+
+            {/* Cart Icon */}
+            <a href="#" className="text-gray-700 hover:text-gray-900">
+              <ShoppingBagIcon className="h-6 w-6" aria-hidden="true" />
+            </a>
               <button
                 type="button"
                 onClick={() => setMobileMenuOpen(false)}
