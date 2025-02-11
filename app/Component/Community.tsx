@@ -15,7 +15,7 @@ export default function Community() {
               <div className="mt-10">
                 <a
                   href="#"
-                  className="inline-block rounded-md border border-transparent bg-pink-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
+                  className="inline-block rounded-md border border-transparent bg-rose-400 px-8 py-3 text-center font-medium text-white hover:bg-rose-100"
                 >
                   Adhérer
                 </a>
@@ -24,57 +24,14 @@ export default function Community() {
 
             {/* Images */}
             <div className="mt-10 lg:mt-0">
-              <div className="grid grid-cols-2 gap-4 lg:grid-cols-3 lg:gap-6 lg:px-4">
                 {/* Colonne 1 */}
-                <div className="h-60 w-40 overflow-hidden rounded-lg lg:h-64 lg:w-44">
+                <div className="h-300 w-400 overflow-hidden rounded-lg hover:opacity-75">
                   <img
                     alt=""
-                    src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                    src="images/shopping.jpg"
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
-                <div className="h-60 w-40 overflow-hidden rounded-lg lg:h-64 lg:w-44">
-                  <img
-                    alt=""
-                    src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-
-                {/* Colonne 2 (affichée uniquement sur desktop) */}
-                <div className="hidden lg:block h-60 w-40 overflow-hidden rounded-lg lg:h-64 lg:w-44">
-                  <img
-                    alt=""
-                    src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-
-                <div className="hidden lg:block h-60 w-40 overflow-hidden rounded-lg lg:h-64 lg:w-44">
-                  <img
-                    alt=""
-                    src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-
-                {/* Colonne 3 (affichée uniquement sur desktop) */}
-                <div className="hidden lg:block h-60 w-40 overflow-hidden rounded-lg lg:h-64 lg:w-44">
-                  <img
-                    alt=""
-                    src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-
-                <div className="hidden lg:block h-60 w-40 overflow-hidden rounded-lg lg:h-64 lg:w-44">
-                  <img
-                    alt=""
-                    src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-              </div>
             </div>
           </div>
         </div>

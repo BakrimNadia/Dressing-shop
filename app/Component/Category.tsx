@@ -2,23 +2,23 @@
 
 const callouts = [
     {
-      name: 'Desk and Office',
-      description: 'Work from home accessories',
-      imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/home-page-02-edition-01.jpg',
+      name: 'Les Robes',
+      description: 'Decouvrez nos robes pour toutes les occasions',
+      imageSrc: 'images/robes-cintre.jpg',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
       href: '#',
     },
     {
-      name: 'Self-Improvement',
-      description: 'Journals and note-taking',
-      imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/home-page-02-edition-02.jpg',
+      name: 'Les Accessoires',
+      description: 'Ajoutez une touche de style à votre tenue',
+      imageSrc: 'images/accessoires.jpg',
       imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
       href: '#',
     },
     {
-      name: 'Travel',
-      description: 'Daily commute essentials',
-      imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/home-page-02-edition-03.jpg',
+      name: 'les bijoux',
+      description: 'Des bijoux à la fois élégants et intemporels',
+      imageSrc: 'images/bijoux.jpg',
       imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
       href: '#',
     },
@@ -26,7 +26,7 @@ const callouts = [
   
   export default function Category() {
     return (
-      <div className="bg-gray-100">
+      <div id="Collection">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
             <h2 className="text-2xl font-bold text-gray-900">Collections</h2>
