@@ -5,6 +5,7 @@ import Community from './Component/Community'
 import Header from './Component/Header'
 import Background from './Component/Background'
 import Banner from './Component/Banner'
+import ModalCookies from './Component/ModalCookies'
 
 
 
@@ -84,6 +85,7 @@ export default function Home() {
    <div id="community">
    <Community />
    </div>
+   <ModalCookies />
     </div> 
    
   </div>
