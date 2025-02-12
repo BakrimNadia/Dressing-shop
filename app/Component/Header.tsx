@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon, ShoppingBagIcon, HeartIcon } from '@heroicons/react/24/outline' // Import des icônes supplémentaires
+import ShoppingBagModal from './ShoppingBagModal'
 
 const navigation = [
     { name: 'Accueil', href: '/' },
@@ -14,6 +15,7 @@ const navigation = [
 
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(false);
 
     return (
       <header className="absolute inset-x-0 top-0 z-50">
@@ -54,13 +56,24 @@ export default function Header() {
             </a>
 
             {/* Cart Icon */}
-            <a href="#" className="text-gray-700 hover:text-gray-900">
-              <ShoppingBagIcon className="h-6 w-6" aria-hidden="true" />
-            </a>
+            <div>
+         {/* Bouton pour ouvrir la modale */}
+         <button
+             className="text-gray-700 hover:text-gray-900"
+             title="Shopping Bag"
+             onClick={() => setIsOpen(true)}
+         >
+        <ShoppingBagIcon className="h-6 w-6" aria-hidden="true" />
+         </button>
+
+       {/* Affichage de la modale si isOpen est true */}
+      {isOpen && <ShoppingBagModal />}
+      </div>
+
 
             {/* Log in button */}
             <button className="bg-rose-400 px-3">
-            <a href="#" className="text-sm font-bold leading-6 text-white">
+            <a href="#" className="text-sm font-bold leading-6 text-white rounded-md">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
             </button>
