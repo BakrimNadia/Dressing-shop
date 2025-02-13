@@ -83,7 +83,7 @@ const products = [
 
       
       {
-        id: 8,
+        id: 9,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'images/17.jpg',
@@ -94,7 +94,7 @@ const products = [
 
       
       {
-        id: 8,
+        id: 10,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'images/11.jpg',
@@ -105,7 +105,7 @@ const products = [
 
       
       {
-        id: 8,
+        id: 11,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'images/08.jpg',
@@ -116,7 +116,7 @@ const products = [
 
       
       {
-        id: 8,
+        id: 12,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'images/02.jpg',
@@ -127,7 +127,7 @@ const products = [
 
       
       {
-        id: 8,
+        id: 13,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'images/05.jpg',
@@ -138,7 +138,7 @@ const products = [
 
       
       {
-        id: 8,
+        id: 14,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'images/14.jpg',
@@ -149,7 +149,7 @@ const products = [
 
       
       {
-        id: 8,
+        id: 15,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'images/06.jpg',
@@ -160,7 +160,7 @@ const products = [
 
       
       {
-        id: 8,
+        id: 16,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'images/03.jpg',
@@ -171,7 +171,7 @@ const products = [
 
       
       {
-        id: 8,
+        id: 17,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'images/01.jpg',
