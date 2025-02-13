@@ -17,7 +17,7 @@ export default function Home() {
     <div className="bg-white">
     <Header />
 
-    <div className="relative isolate px-6 pt-14 lg:px-8">
+    <div className="relative isolate pt-14 mb-5">
   <Background /><Banner />
       <div 
       style={{
@@ -35,13 +35,13 @@ export default function Home() {
         
         
         <div className="text-left">  
-          <h1 className="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">
+          <h1 className="text-balance text-5xl font-semibold tracking-tight text-white sm:text-3xl sm:leading-[3.5rem] sm:text-center">
           Bienvenue au <br /> <span className="text-rose-200">Dressing de Nadia</span>
           </h1>
-          <p className="mt-8 text-pretty text-lg font-medium text-white sm:text-xl/8">
+          <p className="mt-8 text-pretty text-lg font-medium text-white sm:text-3xl sm:text-center">
             La boutique en ligne de vêtements et accessoires pour femmes
           </p>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
+          <div className="mt-10 flex items-center justify-center gap-x-6 grid-cols-3 sm:gap-x-4 sm:grid-cols-1">
             <a
               href="#"
               className="rounded-md bg-white/20 backdrop-blur-sm px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-rose-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
