@@ -27,49 +27,36 @@ import { Radio, RadioGroup } from '@headlessui/react'
 import Header from '../Component/Header'
 
 const product = {
-  name: 'Basic Tee 6-Pack',
-  price: '53 €',
+  name: 'Robe blanche bohême',
+  price: '25 €',
   href: '#',
   breadcrumbs: [
-    { id: 1, name: 'Men', href: '#' },
+    { id: 1, name: 'women', href: '#' },
     { id: 2, name: 'Clothing', href: '#' },
   ],
   images: [
     {
-      src: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-02-secondary-product-shot.jpg',
+      src: 'images/20.jpg',
       alt: 'Two each of gray, white, and black shirts laying flat.',
     },
     {
-      src: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-02-tertiary-product-shot-01.jpg',
+      src: 'images/24.jpg',
       alt: 'Model wearing plain black basic tee.',
     },
-    {
-      src: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-02-tertiary-product-shot-02.jpg',
-      alt: 'Model wearing plain gray basic tee.',
-    },
-    {
-      src: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-02-featured-product-shot.jpg',
-      alt: 'Model wearing plain white basic tee.',
-    },
+   
   ],
   colors: [
     { name: 'White', class: 'bg-white', selectedClass: 'ring-gray-900' },
-    { name: 'Gray', class: 'bg-gray-200', selectedClass: 'ring-gray-900' },
-    { name: 'Black', class: 'bg-gray-900', selectedClass: 'ring-gray-900' },
-    { name: 'Pink', class: 'bg-pink-600', selectedClass: 'ring-gray-900' }
+    { name: 'Gray', class: 'bg-gray-200', selectedClass: 'ring-gray-900' }
   ],
   sizes: [
-    { name: 'XXS', inStock: false },
-    { name: 'XS', inStock: true },
     { name: 'S', inStock: true },
     { name: 'M', inStock: true },
     { name: 'L', inStock: true },
     { name: 'XL', inStock: true },
-    { name: '2XL', inStock: true },
-    { name: '3XL', inStock: true },
   ],
   description:
-    'The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: "Black". Need to add an extra pop of color to your outfit? Our white tee has you covered.',
+    'Robe blanche bohême en coton, longueur 120 cm, largeur 50 cm, sans manches, col en V, broderies sur le devant.',
   highlights: [
     'Hand cut and sewn locally',
     'Dyed with our proprietary colors',
@@ -141,20 +128,6 @@ export default function DetailProduct() {
                 className="h-full w-full object-cover object-center"
               />
             </div>
-            <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
-              <img
-                alt={product.images[2].alt}
-                src={product.images[2].src}
-                className="h-full w-full object-cover object-center"
-              />
-            </div>
-          </div>
-          <div className="aspect-h-5 aspect-w-4 lg:aspect-h-4 lg:aspect-w-3 sm:overflow-hidden sm:rounded-lg">
-            <img
-              alt={product.images[3].alt}
-              src={product.images[3].src}
-              className="h-full w-full object-cover object-center"
-            />
           </div>
         </div>
 
@@ -227,7 +200,7 @@ export default function DetailProduct() {
                 <div className="flex items-center justify-between">
                   <h3 className="text-sm font-medium text-gray-900">Size</h3>
                   <a href="#" className="text-sm font-medium text-indigo-600 hover:text-indigo-500">
-                    Size guide
+                    guide des tailles
                   </a>
                 </div>
 
