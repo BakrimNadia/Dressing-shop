@@ -5,7 +5,7 @@ const products = [
       id: 1,
       name: 'Basic Tee',
       href: '/Detail-product',
-      imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg',
+      imageSrc: 'images/20.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '35 €',
       color: 'Black',
@@ -15,7 +15,7 @@ const products = [
         id: 2,
         name: 'Basic Tee',
         href: '/Detail-product',
-        imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'images/18.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '35 €',
         color: 'Black',
@@ -25,7 +25,7 @@ const products = [
         id: 3,
         name: 'Basic Tee',
         href: '/Detail-product',
-        imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'images/23.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '35 €',
         color: 'Black',
@@ -35,7 +35,7 @@ const products = [
         id: 4,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'images/15.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '35 €',
         color: 'Black',
@@ -45,7 +45,7 @@ const products = [
         id: 5,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'images/19.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '35 €',
         color: 'Black',
@@ -55,7 +55,7 @@ const products = [
         id: 6,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'images/16.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '35 €',
         color: 'Black',
@@ -65,7 +65,7 @@ const products = [
         id: 7,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'images/21.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '35 €',
         color: 'Black',
@@ -75,7 +75,106 @@ const products = [
         id: 8,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'images/22.jpg',
+        imageAlt: "Front of men's Basic Tee in black.",
+        price: '35 €',
+        color: 'Black',
+      },
+
+      
+      {
+        id: 8,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'images/17.jpg',
+        imageAlt: "Front of men's Basic Tee in black.",
+        price: '35 €',
+        color: 'Black',
+      },
+
+      
+      {
+        id: 8,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'images/11.jpg',
+        imageAlt: "Front of men's Basic Tee in black.",
+        price: '35 €',
+        color: 'Black',
+      },
+
+      
+      {
+        id: 8,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'images/08.jpg',
+        imageAlt: "Front of men's Basic Tee in black.",
+        price: '35 €',
+        color: 'Black',
+      },
+
+      
+      {
+        id: 8,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'images/02.jpg',
+        imageAlt: "Front of men's Basic Tee in black.",
+        price: '35 €',
+        color: 'Black',
+      },
+
+      
+      {
+        id: 8,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'images/05.jpg',
+        imageAlt: "Front of men's Basic Tee in black.",
+        price: '35 €',
+        color: 'Black',
+      },
+
+      
+      {
+        id: 8,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'images/14.jpg',
+        imageAlt: "Front of men's Basic Tee in black.",
+        price: '35 €',
+        color: 'Black',
+      },
+
+      
+      {
+        id: 8,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'images/06.jpg',
+        imageAlt: "Front of men's Basic Tee in black.",
+        price: '35 €',
+        color: 'Black',
+      },
+
+      
+      {
+        id: 8,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'images/03.jpg',
+        imageAlt: "Front of men's Basic Tee in black.",
+        price: '35 €',
+        color: 'Black',
+      },
+
+      
+      {
+        id: 8,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'images/01.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '35 €',
         color: 'Black',
