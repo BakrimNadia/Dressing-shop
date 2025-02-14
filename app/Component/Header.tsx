@@ -8,7 +8,7 @@ import ShoppingBagModal from './ShoppingBagModal'
 const navigation = [
     { name: 'Accueil', href: '/' },
     { name: 'Nos Produits', href: '/Products' },
-    { name: 'Communauté', href: '#' },
+    { name: 'Communauté', href: '/Community' },
     { name: 'A propos', href: '#' },
     { name: 'Contact', href: '/Contact' },
 ]
