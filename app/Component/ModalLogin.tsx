@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 
-export default function ModalCookies() {
+export default function ModalLogin() {
   const [open, setOpen] = useState(true)
 
   return (
@@ -23,20 +23,20 @@ export default function ModalCookies() {
                      <button
                         type="button"
                         onClick={() => setOpen(false)}
-                        className="relative -m-2 p-2 text-gray-400 hover:text-gray-500 justify-end"
+                        className="absolute right-4 top-4 text-gray-400 hover:text-gray-500"
                       >
                         <span className="absolute -inset-0.5" />
                         <span className="sr-only">Close panel</span>
                         <XMarkIcon aria-hidden="true" className="size-6" />
                       </button>
-             <div className="sm:flex sm:items-center justify-center mb-5">
+             <div className="sm:flex sm:items-center justify-center mt-5 mb-5">
                 <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left mb-5">
-                  <DialogTitle as="h3" className="text-base font-semibold text-gray-900">
+                  <DialogTitle as="h3" className="text-base text-center font-semibold text-gray-900">
                     Connexion
                   </DialogTitle>
                     <div className="mt-2">
-                        <p className="text-sm text-gray-500">
-                        Veuillez vous connecter.
+                        <p className="text-sm text-gray-500 text-center">
+                        Veuillez vous connecter
                         </p>
                   <form className="mt-2">
                     <label htmlFor="email" className="block text-sm font-semibold text-gray-700">
@@ -67,7 +67,7 @@ export default function ModalCookies() {
                    />
                   </div>
                   <div className="mt-2">
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-gray-500 mb-2">
                     Pas encore de compte ? <a href="#" className="font-semibold text-rose-500">Inscrivez-vous</a>.
                     </p>
                   </div>

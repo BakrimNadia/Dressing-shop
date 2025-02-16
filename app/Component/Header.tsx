@@ -17,6 +17,7 @@ const navigation = [
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     const [isOpen, setIsOpen] = useState(false);
+    const [isConnectOpen, setIsConnectOpen] = useState(false);
 
     return (
       <header className="absolute inset-x-0 top-0 z-50 bg-gradient-to-tr from-[#f5efe6] via-[#f8d7da] to-[#d1d5db]">
@@ -64,22 +65,21 @@ export default function Header() {
              title="Shopping Bag"
              onClick={() => setIsOpen(true)}
          >
+          {isOpen && <ShoppingBagModal />}
         <ShoppingBagIcon className="h-6 w-6" aria-hidden="true" />
          </button>
 
        {/* Affichage de la modale si isOpen est true */}
-      {isOpen && <ShoppingBagModal />}
-      </div>
-
-
+      
+           </div>
             {/* Log in button */}
             <button className="bg-rose-400 rounded-md px-3 py-2"
               title="Log in"
-              onClick={() => setIsOpen(true)}
-            >
+              onClick={() => setIsConnectOpen(true)}
+            > 
+            {isConnectOpen && <ModalLogin />}
               Log in <span aria-hidden="true">&rarr;</span>
             </button> 
-            {isOpen && <ModalLogin />}
           </div>
         </nav>
         
@@ -100,9 +100,19 @@ export default function Header() {
             </a>
 
             {/* Cart Icon */}
-            <a href="#" className="text-gray-700 hover:text-gray-900">
+            <div>
+         {/* Bouton pour ouvrir la modale */}
+         <button
+             className="text-gray-700 hover:text-gray-900"
+             title="Shopping Bag"
+             onClick={() => setIsOpen(true)}
+         >
               <ShoppingBagIcon className="h-6 w-6" aria-hidden="true" />
-            </a>
+         </button>
+
+               {/* Affichage de la modale si isOpen est true */}
+              {isOpen && <ShoppingBagModal />}
+           </div>
               <button
                 type="button"
                 onClick={() => setMobileMenuOpen(false)}
