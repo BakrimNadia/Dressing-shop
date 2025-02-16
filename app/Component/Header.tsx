@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon, ShoppingBagIcon, HeartIcon } from '@heroicons/react/24/outline' // Import des icônes supplémentaires
 import ShoppingBagModal from './ShoppingBagModal'
+import ModalLogin from './ModalLogin'
 
 const navigation = [
     { name: 'Accueil', href: '/' },
@@ -72,11 +73,13 @@ export default function Header() {
 
 
             {/* Log in button */}
-            <button className="bg-rose-400 rounded-md px-3 py-2">
-            <a href="#" className="text-sm font-bold leading-6 text-white rounded-md px-3 py-2">
+            <button className="bg-rose-400 rounded-md px-3 py-2"
+              title="Log in"
+              onClick={() => setIsOpen(true)}
+            >
               Log in <span aria-hidden="true">&rarr;</span>
-            </a>
-            </button>
+            </button> 
+            {isOpen && <ModalLogin />}
           </div>
         </nav>
         

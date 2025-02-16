@@ -7,24 +7,24 @@ import { XMarkIcon } from '@heroicons/react/24/outline'
 const products = [
   {
     id: 1,
-    name: 'Throwback Hip Bag',
+    name: 'Robe bohême',
     href: '#',
-    color: 'Salmon',
-    price: '$90.00',
+    color: 'Blanc',
+    price: '23,00 €',
     quantity: 1,
-    imageSrc: 'https://tailwindui.com/plus-assets/img/ecommerce-images/shopping-cart-page-04-product-01.jpg',
-    imageAlt: 'Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt.',
+    imageSrc: 'images/23.jpg',
+    imageAlt: 'Robe boheme',
   },
   {
     id: 2,
-    name: 'Medium Stuff Satchel',
+    name: 'Boucles d\'oreilles',
     href: '#',
-    color: 'Blue',
-    price: '$32.00',
+    color: 'Multicolor',
+    price: '15,00 €',
     quantity: 1,
-    imageSrc: 'https://tailwindui.com/plus-assets/img/ecommerce-images/shopping-cart-page-04-product-02.jpg',
+    imageSrc: 'images/06.jpg',
     imageAlt:
-      'Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.',
+      'Boucles d\'oreilles rondes et colorés',
   },
   // More products...
 ]
@@ -102,7 +102,7 @@ export default function ShoppingBagModal() {
                 <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
                   <div className="flex justify-between text-base font-medium text-gray-900">
                     <p>Total</p>
-                    <p>$262.00</p>
+                    <p>38,00 €</p>
                   </div>
                   <p className="mt-0.5 text-sm text-gray-500">Voir les différents mode de paiement.</p>
                   <div className="mt-6">
