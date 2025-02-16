@@ -39,14 +39,14 @@ export default function ModalCookies() {
             <button
                 type="button"
                 onClick={() => setOpen(false)}
-                className="inline-flex w-full justify-center rounded-md bg-rose-400 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-red-500 sm:ml-3 sm:w-auto"
+                className="inline-flex w-full justify-center rounded-md bg-rose-400 mb-2 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-red-500 sm:ml-3 sm:w-auto"
               >
                 Refuser
               </button>
               <button
                 type="button"
                 onClick={() => setOpen(false)}
-                className="inline-flex w-full justify-center rounded-md bg-rose-400 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-red-500 sm:ml-3 sm:w-auto"
+                className="inline-flex w-full justify-center rounded-md bg-rose-400 mb-2 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-red-500 sm:ml-3 sm:w-auto"
               >
                 Parametrer
               </button>
@@ -54,7 +54,7 @@ export default function ModalCookies() {
                 type="button"
                 data-autofocus
                 onClick={() => setOpen(false)}
-                className="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-rose-100 sm:mt-0 sm:w-auto"
+                className="mt-3 inline-flex w-full justify-center rounded-md bg-white mb-2 px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-rose-100 sm:mt-0 sm:w-auto"
               >
                 Accepter
               </button>
