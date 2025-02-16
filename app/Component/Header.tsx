@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 'use client'
 
 import { SetStateAction, useState } from 'react'
@@ -10,7 +11,7 @@ const navigation = [
     { name: 'Accueil', href: '/' },
     { name: 'Nos Produits', href: '/Products' },
     { name: 'Communauté', href: '/Community' },
-    { name: 'A propos', href: '#' },
+    { name: 'A propos', href: '/About' },
     { name: 'Contact', href: '/Contact' },
 ]
 
