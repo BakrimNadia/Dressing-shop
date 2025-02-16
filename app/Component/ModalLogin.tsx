@@ -30,7 +30,7 @@ export default function ModalLogin() {
                         <XMarkIcon aria-hidden="true" className="size-6" />
                       </button>
              <div className="sm:flex sm:items-center justify-center mt-5 mb-5">
-                <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left mb-5">
+                <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left mb-5 mx-5">
                   <DialogTitle as="h3" className="text-base text-center font-semibold text-gray-900">
                     Connexion
                   </DialogTitle>

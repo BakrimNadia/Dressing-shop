@@ -29,6 +29,7 @@ const products = [
   // More products...
 ]
 
+
 export default function ShoppingBagModal() {
   const [open, setOpen] = useState(true)
 
