@@ -34,10 +34,19 @@ export default function Community() {
       
       {/* Présentation */}
       <div className="bg-white shadow-md rounded-lg p-6 flex flex-col md:flex-row items-center gap-6 mb-10">
-        <Image src="/images/community.jpg" alt="Communauté Mode" width={400} height={300} className="rounded-lg" />
+        <Image src="/images/community.jpg" alt="Communauté Mode" width={400} height={300} className="rounded-lg transition-transform duration-500 ease-in-out hover:scale-110 hover:opacity-80" />
         <p className="text-gray-700 text-lg">
           Rejoignez notre communauté passionnée de mode durable et découvrez des astuces, conseils et partages autour du dressing de seconde main !
         </p>
+        
+      </div>
+      <div>
+        <a
+          href="#"
+          className="inline-block rounded-md border border-transparent bg-rose-400 px-8 py-3 mb-10 text-center font-medium text-white hover:bg-rose-100"
+          >
+          Adhérer à la communauté
+        </a>
       </div>
 
       {/* Forum */}

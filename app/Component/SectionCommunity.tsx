@@ -14,7 +14,7 @@ export default function SectionCommunity() {
               </p>
               <div className="mt-10">
                 <a
-                  href="#"
+                  href="/Community"
                   className="inline-block rounded-md border border-transparent bg-rose-400 px-8 py-3 text-center font-medium text-white hover:bg-rose-100"
                 >
                   Adhérer

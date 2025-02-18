@@ -72,7 +72,7 @@ export default function Header() {
                     {isOpen && <ShoppingBagModal onClose={() => setIsOpen(false)} />}
 
                     <button
-                        className="bg-rose-400 rounded-md px-3 py-2"
+                        className="bg-rose-400 text-white hover:bg-white hover:text-black rounded-md px-3 py-2"
                         title="Log in"
                         onClick={() => openModal(setIsConnectOpen)}
                     >
@@ -131,7 +131,7 @@ export default function Header() {
                             </div>
                             <div className="py-6">
                                 <button
-                                    className="block rounded-md px-3.5 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-rose-100"
+                                    className="block rounded-md px-3.5 py-2.5 text-base  font-semibold leading-7 text-gray-900 hover:bg-rose-100"
                                     title="Log in"
                                     onClick={() => openModal(setIsConnectOpen)}
                                 >

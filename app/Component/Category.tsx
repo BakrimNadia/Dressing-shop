@@ -38,7 +38,7 @@ const callouts = [
                     <img
                       alt={callout.imageAlt}
                       src={callout.imageSrc}
-                      className="h-full w-full object-cover object-center"
+                      className="h-full w-full object-cover object-center transition-transform duration-500 ease-in-out hover:scale-110"
                     />
                   </div>
                   <h3 className="mt-6 text-sm text-gray-500">

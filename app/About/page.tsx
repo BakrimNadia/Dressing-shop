@@ -20,10 +20,10 @@ export default function About()  {
           <h2 className="text-3xl font-semibold mb-4">Notre Histoire</h2>
             <FaQuoteLeft className="text-4xl text-gray-400" />
             <br />
-          <p className="text-gray-700 mx-2 text-justify">
+          <p className="text-gray-700 mx-4 text-justify">
             Née d&apos;une passion pour la mode durable, notre boutique sélectionne avec soin des pièces uniques pour offrir une seconde vie aux vêtements. Chaque article raconte une histoire et contribue à un avenir plus vert. 
             </p>
-            <p className="text-gray-700 mx-2 mt-4 text-justify">
+            <p className="text-gray-700 mx-4 mt-4 text-justify">
             Ce projet est né de la volonté de proposer une alternative éthique à la fast fashion, en valorisant des vêtements de qualité déjà produits. Nous croyons fermement que la mode peut être à la fois élégante et responsable. Chaque pièce est soigneusement inspectée et choisie pour garantir à nos clientes des articles à la fois tendances et durables.
           </p>
             <br />
@@ -48,7 +48,7 @@ export default function About()  {
           </p>
         </div>
         <div className="md:w-1/2">
-          <Image src="/images/eco.jpg" alt="Engagement écoresponsable" width={600} height={400} className="rounded-2xl shadow-lg opacity-80" />
+          <Image src="/images/eco.jpg" alt="Engagement écoresponsable" width={600} height={400} className="rounded-2xl shadow-lg opacity-80 transition-transform duration-500 ease-in-out hover:scale-110 hover:opacity-70" />
         </div>
       </section>
 
@@ -58,7 +58,7 @@ export default function About()  {
         <p className="text-gray-700 mb-6">
           Retrouvez-nous dans notre boutique située au cœur de la ville. Un espace chaleureux où chaque vêtement a une seconde chance.
         </p>
-        <Image src="/images/magasin.jpg" alt="Notre boutique" width={800} height={500} className="rounded-2xl shadow-lg" />
+        <Image src="/images/magasin.jpg" alt="Notre boutique" width={800} height={500} className="rounded-2xl shadow-lg transition-transform duration-500 ease-in-out hover:scale-110 hover:opacity-80" />
       </section>
 
       {/* Galerie d'Images */}
@@ -67,7 +67,7 @@ export default function About()  {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {["/images/robes-cintre.jpg", "/images/accessoires.jpg", "/images/bijoux.jpg"].map((src, index) => (
             <div key={index} className="overflow-hidden  rounded-2xl shadow-lg">
-              <Image src={src} alt={`Image ${index + 1}`} width={400} height={400} className="object-cover" />
+              <Image src={src} alt={`Image ${index + 1}`} width={400} height={400} className="w-full h-full object-cover transition-transform duration-500 ease-in-out hover:scale-110 hover:opacity-80" />
             </div>
           ))}
         </div>
