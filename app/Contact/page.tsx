@@ -27,6 +27,9 @@ export default function Contact() {
     <div className="isolate bg-rose-100 px-6 py-24 sm:py-32 lg:px-8">
         <Header />
       <div className="mx-auto max-w-2xl text-center">
+        <div className="text-center">
+        <img src="images/logo-dressing2.png" alt="logo" className="text-center justify-center item-center" />
+        </div>
         <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Contactez nous</h2>
       </div>
       <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
