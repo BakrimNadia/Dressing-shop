@@ -1,3 +1,5 @@
+'use client' 
+
 export default function SectionCommunity() {
   return (
     <div className="relative overflow-hidden bg-white">
@@ -39,3 +41,4 @@ export default function SectionCommunity() {
     </div>
   );
 }
+

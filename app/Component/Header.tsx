@@ -26,7 +26,7 @@ export default function Header() {
     };
 
     return (
-        <header className="absolute inset-x-0 top-0 z-50 bg-gradient-to-tr from-[#f5efe6] via-[#f8d7da] to-[#d1d5db]">
+        <header id="header" className="absolute inset-x-0 top-0 z-50 bg-gradient-to-tr from-[#f5efe6] via-[#f8d7da] to-[#d1d5db]">
             <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8 pt-2">
                 <div className="flex lg:flex-1">
                     <a href="/" className="-m-1.5 p-1.5">
@@ -50,7 +50,7 @@ export default function Header() {
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
                     {navigation.map((item) => (
-                        <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+                        <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900 hover:text-rose-400">
                             {item.name}
                         </a>
                     ))}
@@ -123,7 +123,7 @@ export default function Header() {
                                     <a
                                         key={item.name}
                                         href={item.href}
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:text-rose-400"
                                     >
                                         {item.name}
                                     </a>

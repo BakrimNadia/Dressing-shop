@@ -153,7 +153,7 @@ export default function DetailProduct() {
                   ))}
                 </div>
                 <p className="sr-only">{reviews.average} out of 5 stars</p>
-                <a href={reviews.href} className="ml-3 text-sm font-medium text-indigo-600 hover:text-indigo-500">
+                <a href={reviews.href} className="ml-3 text-sm font-medium text-rose-400 hover:text-rose-400">
                   {reviews.totalCount} Avis
                 </a>
               </div>
@@ -193,7 +193,7 @@ export default function DetailProduct() {
               <div className="mt-10">
                 <div className="flex items-center justify-between">
                   <h3 className="text-sm font-medium text-gray-900">Size</h3>
-                  <a href="#" className="text-sm font-medium text-indigo-600 hover:text-indigo-500">
+                  <a href="#" className="text-sm font-medium text-rose-400 hover:text-rose-100">
                     guide des tailles
                   </a>
                 </div>

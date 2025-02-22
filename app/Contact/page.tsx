@@ -28,7 +28,7 @@ export default function Contact() {
         <Header />
       <div className="mx-auto max-w-2xl text-center">
         <div className="flex justify-center items-center">
-        <img src="images/logo-dressing2.png" alt="logo" className="text-center justify-center item-center opacity-80" />
+        <img src="images/logo-dressing2.png" alt="logo" className="text-center justify-center item-center opacity-80 hover:scale-105 transition-transform duration-300" />
         </div>
         <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl bg-gradient-to-tr from-rose-400 to-gray-400 bg-clip-text text-transparent hover:animate-bounce">Contactez nous</h2>
       </div>
@@ -164,7 +164,7 @@ export default function Contact() {
         <div className="mt-10">
           <button
             type="submit"
-            className="block w-full rounded-md bg-rose-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-rose-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-400"
+            className="block w-full rounded-md bg-rose-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-rose-100 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-400"
           >
             Envoyer
           </button>

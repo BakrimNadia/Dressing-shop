@@ -3,181 +3,181 @@ import Header from "../Component/Header"
 const products = [
     {
       id: 1,
-      name: 'Basic Tee',
+      name: 'Robe boheme',
       href: '/Detail-product',
       imageSrc: 'images/20.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
-      price: '35 €',
-      color: 'Black',
+      price: '25 €',
+      color: 'Blanche',
     },
 
     {
         id: 2,
-        name: 'Basic Tee',
+        name: 'Robe d\été',
         href: '#',
         imageSrc: 'images/18.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
-        price: '35 €',
-        color: 'Black',
+        price: '29 €',
+        color: 'Rouge',
       },
 
       {
         id: 3,
-        name: 'Basic Tee',
+        name: 'Robe courte',
         href: '#',
         imageSrc: 'images/23.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '35 €',
-        color: 'Black',
+        color: 'Blanche',
       },
 
       {
         id: 4,
-        name: 'Basic Tee',
+        name: 'Robe mongue',
         href: '#',
         imageSrc: 'images/15.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '35 €',
-        color: 'Black',
+        color: 'Marron',
       },
 
       {
         id: 5,
-        name: 'Basic Tee',
+        name: 'Robe de soirée',
         href: '#',
         imageSrc: 'images/19.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '35 €',
-        color: 'Black',
+        color: 'Verte',
       },
 
       {
         id: 6,
-        name: 'Basic Tee',
+        name: 'Jupe longue',
         href: '#',
         imageSrc: 'images/16.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '35 €',
-        color: 'Black',
+        color: 'Verte kaki',
       },
 
       {
         id: 7,
-        name: 'Basic Tee',
+        name: 'Jupe plissée',
         href: '#',
         imageSrc: 'images/21.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
-        price: '35 €',
-        color: 'Black',
+        price: '15 €',
+        color: 'Rose',
       },
 
       {
         id: 8,
-        name: 'Basic Tee',
+        name: 'Veste tailleur',
         href: '#',
         imageSrc: 'images/22.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
-        price: '35 €',
-        color: 'Black',
+        price: '15 €',
+        color: 'Camel',
       },
 
       
       {
         id: 9,
-        name: 'Basic Tee',
+        name: 'Veste tailleur',
         href: '#',
         imageSrc: 'images/17.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
-        price: '35 €',
-        color: 'Black',
+        price: '30 €',
+        color: 'Grise',
       },
 
       
       {
         id: 10,
-        name: 'Basic Tee',
+        name: 'Short jeans',
         href: '#',
         imageSrc: 'images/11.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
-        price: '35 €',
-        color: 'Black',
+        price: '10 €',
+        color: 'Bleu',
       },
 
       
       {
         id: 11,
-        name: 'Basic Tee',
+        name: 'Short jeans',
         href: '#',
         imageSrc: 'images/08.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
-        price: '35 €',
-        color: 'Black',
+        price: '10 €',
+        color: 'Bleu',
       },
 
       
       {
         id: 12,
-        name: 'Basic Tee',
+        name: 'Sac de plage',
         href: '#',
         imageSrc: 'images/02.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
-        price: '35 €',
-        color: 'Black',
+        price: '15 €',
+        color: 'Blanc',
       },
 
       
       {
         id: 13,
-        name: 'Basic Tee',
+        name: 'sac à main',
         href: '#',
         imageSrc: 'images/05.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
-        price: '35 €',
-        color: 'Black',
+        price: '25 €',
+        color: 'Gris',
       },
 
       
       {
         id: 14,
-        name: 'Basic Tee',
+        name: 'Sac à main',
         href: '#',
         imageSrc: 'images/14.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
-        price: '35 €',
-        color: 'Black',
+        price: '29 €',
+        color: 'Blanc',
       },
 
       
       {
         id: 15,
-        name: 'Basic Tee',
+        name: 'Boucles d\'oreilles',
         href: '#',
         imageSrc: 'images/06.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
-        price: '35 €',
-        color: 'Black',
+        price: '19 €',
+        color: 'Noir et multicolor',
       },
 
       
       {
         id: 16,
-        name: 'Basic Tee',
+        name: 'Bracelet',
         href: '#',
         imageSrc: 'images/03.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '35 €',
-        color: 'Black',
+        color: 'Noir et Marron',
       },
 
       
       {
         id: 17,
-        name: 'Basic Tee',
+        name: 'Collier',
         href: '#',
         imageSrc: 'images/01.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '35 €',
-        color: 'Black',
+        color: 'Gris',
       },
   ]
   

@@ -35,7 +35,7 @@ export default function Community() {
     <div className="bg-rose-100 min-h-screen py-10 px-6 md:px-16 lg:px-32">
         <Header />
       {/* Titre */}
-      <h1 className="text-4xl font-bold text-gray-800 text-center mt-10 mb-6 bg-gradient-to-tr from-rose-400 to-gray-400 bg-clip-text text-transparent hover:animate-bounce">Bienvenue dans notre communauté Dressing</h1>
+      <h1 className="text-4xl font-bold text-gray-800 text-center mt-10 mb-6 pt-10 bg-gradient-to-tr from-rose-400 to-gray-400 bg-clip-text text-transparent hover:animate-bounce">Bienvenue dans notre communauté Dressing</h1>
       
       {/* Présentation */}
       <div className="bg-white shadow-md rounded-lg p-6 flex flex-col md:flex-row items-center gap-6 mb-10">

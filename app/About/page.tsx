@@ -17,13 +17,13 @@ export default function About()  {
       {/* Notre Histoire */}
       <section className="flex flex-col md:flex-row items-center mb-12">
         <div className="md:w-1/2 mb-6 md:mb-0">
-          <h2 className="text-3xl font-semibold mb-4">Notre Histoire</h2>
+          <h2 className="text-3xl font-semibold mx-4 px-2 mb-4">Notre Histoire</h2>
             <FaQuoteLeft className="text-4xl text-gray-400" />
             <br />
-          <p className="text-gray-700 mx-4 text-justify">
+          <p className="text-gray-700 mx-4 px-2 text-justify text-lg">
             Née d&apos;une passion pour la mode durable, notre boutique sélectionne avec soin des pièces uniques pour offrir une seconde vie aux vêtements. Chaque article raconte une histoire et contribue à un avenir plus vert. 
             </p>
-            <p className="text-gray-700 mx-4 mt-4 text-justify">
+            <p className="text-gray-700 mx-4 px-2 mt-4 text-justify text-lg">
             Ce projet est né de la volonté de proposer une alternative éthique à la fast fashion, en valorisant des vêtements de qualité déjà produits. Nous croyons fermement que la mode peut être à la fois élégante et responsable. Chaque pièce est soigneusement inspectée et choisie pour garantir à nos clientes des articles à la fois tendances et durables.
           </p>
             <br />
@@ -37,13 +37,13 @@ export default function About()  {
       {/* Engagement Écoresponsable */}
       <section className="flex flex-col md:flex-row-reverse items-center mb-12">
         <div className="md:w-1/2 mb-6 md:mb-0">
-          <h2 className="text-3xl font-semibold mb-4">Notre Engagement Écoresponsable</h2>
-          <FaLeaf className="text-4xl text-green-500 text-center justify-center" />
+          <h2 className="text-3xl font-semibold mx-4 px-2 mb-4">Notre Engagement Écoresponsable</h2>
+          <FaLeaf className="text-4xl text-green-500 text-center justify-center mx-4 px-2" />
             <br />
-          <p className="text-gray-700 text-justify mx-2">
+          <p className="text-gray-700 text-justify mx-4 px-2 text-lg">
             Nous croyons en une mode plus durable. En choisissant la seconde main, vous participez à la réduction des déchets textiles et à la préservation des ressources naturelles.
           </p>
-          <p className="text-gray-700 mx-2 mt-4 text-justify mx-2">
+          <p className="text-gray-700 mx-4 px-2 mt-4 text-justify text-lg">
             En donnant une seconde vie aux vêtements, nous réduisons l&apos;empreinte carbone et participons à la préservation des ressources naturelles. Notre objectif est d&apos;encourager une consommation plus consciente, où chaque achat devient un acte engagé pour la planète. Nous collaborons également avec des associations locales pour redistribuer les vêtements invendus, assurant ainsi qu&apos;aucun article ne soit gaspillé.
           </p>
         </div>
@@ -55,15 +55,15 @@ export default function About()  {
       {/* Notre Boutique */}
       <section className="text-center mb-12">
         <h2 className="text-3xl font-semibold mb-4">Visitez notre Boutique</h2>
-        <p className="text-gray-700 mb-6">
+        <p className="text-gray-700 mb-6 text-lg">
           Retrouvez-nous dans notre boutique située au cœur de la ville. Un espace chaleureux où chaque vêtement a une seconde chance.
         </p>
         <div className="flex flex-col md:flex-row items-center justify-center gap-6">
         <Image src="/images/magasin.jpg" alt="Notre boutique" width={800} height={500} className="rounded-2xl shadow-lg transition-transform duration-500 ease-in-out hover:scale-110 hover:opacity-80" />
         <p>
-          <span className="text-gray-700">Adresse :<br /> </span> 12 rue de la Mode, <br />75001 Paris <br /><br />
-          <span className="text-gray-700">Horaires :<br /></span> Lundi au Samedi de 10h à 19h <br /> <br />
-          <span className="text-gray-700">Contact :<br /></span> 01 23 45 67 89
+          <span className="text-gray-700 text-lg">Adresse :<br /> </span> 12 rue de la Mode, <br />75001 Paris <br /><br />
+          <span className="text-gray-700 text-lg">Horaires :<br /></span> Lundi au Samedi de 10h à 19h <br /> <br />
+          <span className="text-gray-700 text-lg">Contact :<br /></span> 01 23 45 67 89
         </p>
         </div>
       </section>
