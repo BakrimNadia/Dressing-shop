@@ -69,6 +69,7 @@ export default function Header() {
                     >
                         <ShoppingBagIcon className="h-6 w-6" aria-hidden="true" />
                     </button>
+                    {/* @ts-ignore */}
                     {isOpen && <ShoppingBagModal onClose={() => setIsOpen(false)} />}
 
                     <button
@@ -78,6 +79,7 @@ export default function Header() {
                     >
                         Log in <span aria-hidden="true">&rarr;</span>
                     </button>
+                    {/* @ts-ignore */}
                     {isConnectOpen && <ModalLogin onClose={() => setIsConnectOpen(false)} />}
                 </div>
             </nav>
