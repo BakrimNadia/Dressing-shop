@@ -27,10 +27,10 @@ export default function Contact() {
     <div className="isolate bg-rose-100 px-6 py-24 sm:py-32 lg:px-8">
         <Header />
       <div className="mx-auto max-w-2xl text-center">
-        <div className="text-center">
-        <img src="images/logo-dressing2.png" alt="logo" className="text-center justify-center item-center" />
+        <div className="flex justify-center items-center">
+        <img src="images/logo-dressing2.png" alt="logo" className="text-center justify-center item-center opacity-80" />
         </div>
-        <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Contactez nous</h2>
+        <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl bg-gradient-to-tr from-rose-400 to-gray-400 bg-clip-text text-transparent hover:animate-bounce">Contactez nous</h2>
       </div>
       <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
