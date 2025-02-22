@@ -38,11 +38,11 @@ export default function Home() {
           Bienvenue au <br /> <span className="text-rose-200">Dressing de Nadia</span>
           </h1>
           <p className="px-2 mt-8 text-pretty text-lg font-medium text-white sm:text-3xl sm:text-center">
-            La boutique en ligne de vêtements et accessoires pour femmes
+            Boutique vêtements et accessoires seconde main pour femmes
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6 grid-cols-3 sm:gap-x-4 sm:grid-cols-1">
             <a
-              href="#"
+              href="/Products"
               className="rounded-md bg-white/20 backdrop-blur-sm px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-rose-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Accès boutique
