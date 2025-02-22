@@ -1,6 +1,11 @@
 'use client';
 import { useState } from 'react';
 import Image from 'next/image';
+import { FiHeart } from "react-icons/fi";
+import { HiUsers } from "react-icons/hi";
+import { BiMessageSquareDots } from "react-icons/bi";
+import { MdStars } from "react-icons/md";
+import { GiRibbon } from "react-icons/gi";
 import Header from '../Component/Header';
 
 export default function Community() {
@@ -30,20 +35,28 @@ export default function Community() {
     <div className="bg-rose-100 min-h-screen py-10 px-6 md:px-16 lg:px-32">
         <Header />
       {/* Titre */}
-      <h1 className="text-4xl font-bold text-gray-800 text-center mt-10 mb-6">Bienvenue dans notre communauté Dressing</h1>
+      <h1 className="text-4xl font-bold text-gray-800 text-center mt-10 mb-6 bg-gradient-to-tr from-rose-400 to-gray-400 bg-clip-text text-transparent hover:animate-bounce">Bienvenue dans notre communauté Dressing</h1>
       
       {/* Présentation */}
       <div className="bg-white shadow-md rounded-lg p-6 flex flex-col md:flex-row items-center gap-6 mb-10">
         <Image src="/images/community.jpg" alt="Communauté Mode" width={400} height={300} className="rounded-lg transition-transform duration-500 ease-in-out hover:scale-110 hover:opacity-80" />
-        <p className="text-gray-700 text-lg">
-          Rejoignez notre communauté passionnée de mode durable et découvrez des astuces, conseils et partages autour du dressing de seconde main !
+        <p className="text-gray-700 text-lg text-justify">
+          Rejoignez notre communauté passionnée de mode durable et découvrez des astuces, conseils et partages autour du dressing de seconde main ! <br /> 
+          En tant que membre, recevez des offres exclusives, des invitations à des événements et des conseils personnalisés pour vous aider à adopter une mode plus responsable. 🌿
         </p>
+        </div>
+        <div className="flex justify-center gap-6 mt-6 text-rose-400 text-4xl hover:animate-bounce">
+          <FiHeart />
+          <HiUsers />
+          <BiMessageSquareDots />
+          <MdStars />
+          <GiRibbon />
         
       </div>
-      <div>
+      <div className="flex justify-center gap-6 mt-6 text-xl">
         <a
           href="#"
-          className="inline-block rounded-md border border-transparent bg-rose-400 px-8 py-3 mb-10 text-center font-medium text-white hover:bg-rose-100"
+          className="inline-block justify-center rounded-md border border-transparent bg-rose-400 px-8 py-3 mb-10 text-center font-medium text-white hover:bg-white hover:text-rose-400 transition-colors duration-300"
           >
           Adhérer à la communauté
         </a>
@@ -77,7 +90,7 @@ export default function Community() {
         ></textarea>
         <button 
           onClick={handleSendMessage} 
-          className="mt-4 px-4 py-2 bg-rose-400 text-white font-semibold rounded-md hover:bg-rose-100">
+          className="mt-4 px-4 py-2 bg-rose-400 text-white font-semibold rounded-md hover:bg-white hover:text-rose-400 transition-colors duration-300">
           Envoyer
         </button>
       </div>

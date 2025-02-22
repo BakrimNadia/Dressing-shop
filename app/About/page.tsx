@@ -8,7 +8,7 @@ export default function About()  {
         <Header />
       {/* Introduction */}
       <section className="text-center mt-12 mb-12">
-        <h1 className="text-4xl font-bold mb-4">À propos de nous</h1>
+        <h1 className="text-4xl font-bold pt-4 mt-8 mb-4 bg-gradient-to-tr from-rose-400 to-gray-400 bg-clip-text text-transparent hover:animate-bounce">À propos de nous</h1>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
           Bienvenue dans notre boutique de vêtements de seconde main pour femme. Notre mission : redonner vie aux vêtements tout en promouvant une mode responsable et accessible.
         </p>
@@ -30,7 +30,7 @@ export default function About()  {
             <FaQuoteRight className="text-4xl text-gray-400 text-right" />
         </div>
         <div className="md:w-1/2">
-          <Image src="/images/boutique.png" alt="Notre histoire" width={500} height={500} className="rounded-2xl shadow-lg opacity-80" />
+          <Image src="/images/boutique.png" alt="Notre histoire" width={500} height={500} className="rounded-2xl shadow-lg opacity-80 transition-transform duration-500 ease-in-out hover:scale-110 hover:opacity-70" />
         </div>
       </section>
 
@@ -58,7 +58,14 @@ export default function About()  {
         <p className="text-gray-700 mb-6">
           Retrouvez-nous dans notre boutique située au cœur de la ville. Un espace chaleureux où chaque vêtement a une seconde chance.
         </p>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6">
         <Image src="/images/magasin.jpg" alt="Notre boutique" width={800} height={500} className="rounded-2xl shadow-lg transition-transform duration-500 ease-in-out hover:scale-110 hover:opacity-80" />
+        <p>
+          <span className="text-gray-700">Adresse :<br /> </span> 12 rue de la Mode, <br />75001 Paris <br /><br />
+          <span className="text-gray-700">Horaires :<br /></span> Lundi au Samedi de 10h à 19h <br /> <br />
+          <span className="text-gray-700">Contact :<br /></span> 01 23 45 67 89
+        </p>
+        </div>
       </section>
 
       {/* Galerie d'Images */}
