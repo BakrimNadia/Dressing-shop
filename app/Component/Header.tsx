@@ -33,8 +33,8 @@ export default function Header() {
                         <span className="sr-only">Your Company</span>
                         <img
                             alt="Logo"
-                            src="images/logo-dressing2.png"
-                            className="h-10 w-auto"
+                            src="/images/logo-dressing2.png"
+                            className="h-8 w-auto rounded-full"
                         />
                     </a>
                 </div>
@@ -92,8 +92,8 @@ export default function Header() {
                             <span className="sr-only">Your Company</span>
                             <img
                                 alt="Logo"
-                                src="images/logo-dressing2.png"
-                                className="h-8 w-auto"
+                                src="/images/logo-dressing2.png"
+                                className="h-8 w-auto rounded-full"
                             />
                         </a>
                         <a href="#" className="text-gray-700 hover:text-gray-900" aria-label="Wishlist">

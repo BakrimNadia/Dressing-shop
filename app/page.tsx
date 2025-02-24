@@ -17,7 +17,7 @@ export default function Home() {
     <div>
     <Header />
 
-    <div className="relative isolate pt-14 mb-5">
+    <div className="relative isolate pt-14 mb-2">
   <Banner />
       <div 
       style={{

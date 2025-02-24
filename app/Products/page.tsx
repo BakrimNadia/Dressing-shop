@@ -210,7 +210,7 @@ const products = [
                     </h3>
                     <p className="mt-1 text-sm text-gray-500">{product.color}</p>
                   </div>
-                  <button className="bg-rose-400 hover:bg-rose-100 text-sm font-medium text-white px-5">{product.price}</button>
+                  <button className="text-sm font-medium text-white px-5  bg-rose-400 hover:!bg-rose-100">{product.price}</button>
                 </div>
               </div>
             ))}

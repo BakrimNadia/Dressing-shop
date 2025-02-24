@@ -28,7 +28,7 @@ export default function Contact() {
         <Header />
       <div className="mx-auto max-w-2xl text-center">
         <div className="flex justify-center items-center">
-        <img src="images/logo-dressing2.png" alt="logo" className="text-center justify-center item-center opacity-80 hover:scale-105 transition-transform duration-300" />
+        <img src="/images/logo-dressing2.png" alt="logo" className="text-center justify-center item-center opacity-80 hover:scale-105 transition-transform duration-300" />
         </div>
         <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl bg-gradient-to-tr from-rose-400 to-gray-400 bg-clip-text text-transparent hover:animate-bounce">Contactez nous</h2>
       </div>
