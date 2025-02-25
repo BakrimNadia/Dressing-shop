@@ -6,21 +6,21 @@ const callouts = [
       description: 'Decouvrez nos robes pour toutes les occasions',
       imageSrc: 'images/robes-cintre.jpg',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-      href: '#',
+      href: '/Products',
     },
     {
       name: 'Les Accessoires',
       description: 'Ajoutez une touche de style à votre tenue',
       imageSrc: 'images/accessoires.jpg',
       imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
-      href: '#',
+      href: '/Products',
     },
     {
       name: 'les bijoux',
       description: 'Des bijoux à la fois élégants et intemporels',
       imageSrc: 'images/bijoux.jpg',
       imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-      href: '#',
+      href: '/Products',
     },
   ]
   

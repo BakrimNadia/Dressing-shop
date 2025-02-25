@@ -1,24 +1,4 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    theme: {
-      extend: {
-        gridTemplateRows: {
-          '[auto,auto,1fr]': 'auto auto 1fr',
-        },
-      },
-    },
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+
 'use client'
 
 import { useState } from 'react'
@@ -213,14 +193,14 @@ export default function DetailProduct() {
                           size.inStock
                             ? 'cursor-pointer bg-white text-gray-900 shadow-sm'
                             : 'cursor-not-allowed bg-gray-50 text-gray-200',
-                          'group relative flex items-center justify-center rounded-md border px-4 py-3 text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none data-[focus]:ring-2 data-[focus]:ring-indigo-500 sm:flex-1 sm:py-6',
+                          'group relative flex items-center justify-center rounded-md border px-4 py-3 text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none data-[focus]:ring-2 data-[focus]:ring-rose-400 sm:flex-1 sm:py-6',
                         )}
                       >
                         <span>{size.name}</span>
                         {size.inStock ? (
                           <span
                             aria-hidden="true"
-                            className="pointer-events-none absolute -inset-px rounded-md border-2 border-transparent group-data-[focus]:border group-data-[checked]:border-indigo-500"
+                            className="pointer-events-none absolute -inset-px rounded-md border-2 border-transparent group-data-[focus]:border group-data-[checked]:border-rose-400"
                           />
                         ) : (
                           <span
