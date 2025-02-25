@@ -7,6 +7,7 @@ import { BiMessageSquareDots } from "react-icons/bi";
 import { MdStars } from "react-icons/md";
 import { GiRibbon } from "react-icons/gi";
 import Header from '../Component/Header';
+import { ChevronUpIcon } from '@heroicons/react/24/solid';
 
 export default function Community() {
   const [messages, setMessages] = useState([
@@ -94,6 +95,9 @@ export default function Community() {
           Envoyer
         </button>
       </div>
+      <a href="#header" className="flex left-[calc(50%-16px)] items-center justify-center text-white animate-bounce mt-4 pt-4 mb-2">
+        <ChevronUpIcon className="w-8 h-8 text-rose-400 animate-bounce" />
+        </a>
     </div>
   );
 }

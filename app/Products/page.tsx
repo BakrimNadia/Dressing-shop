@@ -1,3 +1,4 @@
+import { ChevronUpIcon } from "@heroicons/react/24/solid"
 import Header from "../Component/Header"
 
 const products = [
@@ -216,6 +217,9 @@ const products = [
             ))}
           </div>
         </div>
+        <a href="#header" className="flex left-[calc(50%-16px)] items-center justify-center text-white animate-bounce mb-3">
+        <ChevronUpIcon className="w-8 h-8 text-rose-400 animate-bounce" />
+        </a>
       </div>
     )
   }

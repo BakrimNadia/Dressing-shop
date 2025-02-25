@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { FaLeaf, FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 import Header from '../Component/Header';
+import { ChevronUpIcon } from '@heroicons/react/24/solid';
 
 export default function About()  {
   return (
@@ -79,6 +80,9 @@ export default function About()  {
           ))}
         </div>
       </section>
+      <a href="#header" className="flex left-[calc(50%-16px)] items-center justify-center text-white animate-bounce mt-4 pt-4 mb-3">
+        <ChevronUpIcon className="w-8 h-8 text-rose-400 animate-bounce" />
+        </a>
     </div>
   );
 };
