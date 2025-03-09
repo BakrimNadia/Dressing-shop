@@ -27,12 +27,9 @@ export default function Contact() {
     <div className="isolate bg-rose-100 px-6 py-24 sm:py-32 lg:px-8">
         <Header />
       <div className="mx-auto max-w-2xl text-center">
-        <div className="flex justify-center items-center">
-        <img src="/images/logo-dressing2.png" alt="logo" className="text-center justify-center item-center opacity-80 hover:scale-105 transition-transform duration-300" />
-        </div>
         <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl bg-gradient-to-tr from-rose-400 to-gray-400 bg-clip-text text-transparent hover:animate-bounce">Contactez nous</h2>
       </div>
-      <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
+      <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20 border border-gray-800 rounded-lg shadow-xl bg-rose-200 p-6 sm:p-8">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
@@ -143,7 +140,7 @@ export default function Contact() {
               <Switch
                 checked={agreed}
                 onChange={setAgreed}
-                className="group flex w-8 flex-none cursor-pointer rounded-full bg-gray-200 p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600 data-[checked]:bg-pink-600"
+                className="group flex w-8 flex-none cursor-pointer rounded-full bg-gray-200 p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-400 data-[checked]:bg-rose-400"
               >
                 <span className="sr-only">Agree to policies</span>
                 <span
@@ -154,7 +151,7 @@ export default function Contact() {
             </div>
             <Label className="text-sm leading-6 text-gray-600">
               En cochant, vous acceptez nos {' '}
-              <a href="#" className="font-semibold text-pink-600">
+              <a href="#" className="font-semibold text-rose-400">
                 conditions d&apos;utilisation
               </a>
               .

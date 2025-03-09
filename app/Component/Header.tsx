@@ -33,7 +33,7 @@ export default function Header() {
                         <span className="sr-only">Your Company</span>
                         <img
                             alt="Logo"
-                            src="/images/logo-dressing2.png"
+                            src="/images/logo.svg"
                             className="h-8 w-auto rounded-full"
                         />
                     </a>
