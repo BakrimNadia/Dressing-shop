@@ -24,15 +24,15 @@ export default function Contact() {
 
   return (
     
-    <div className="isolate bg-rose-100 px-6 py-24 sm:py-32 lg:px-8">
+    <div className="isolate bg-[url('/images/homepage.jpeg')] bg-cover px-6 py-24 sm:py-32 lg:px-8">
         <Header />
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl bg-gradient-to-tr from-rose-400 to-gray-400 bg-clip-text text-transparent hover:animate-bounce">Contactez nous</h2>
+        <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl bg-gradient-to-tr from-rose-200 to-gray-200 bg-clip-text text-transparent hover:animate-bounce">Contactez nous</h2>
       </div>
-      <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20 border border-gray-800 rounded-lg shadow-xl bg-rose-200 p-6 sm:p-8">
+      <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20 border border-gray-800 backdrop-blur-lg rounded-lg shadow-xl p-6 sm:p-8">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
-            <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-white">
               Nom
             </label>
             <div className="mt-2.5">
@@ -46,7 +46,7 @@ export default function Contact() {
             </div>
           </div>
           <div>
-            <label htmlFor="last-name" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="last-name" className="block text-sm font-semibold leading-6 text-white">
               Prénom
             </label>
             <div className="mt-2.5">
@@ -60,7 +60,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="company" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="company" className="block text-sm font-semibold leading-6 text-white">
               Ville
             </label>
             <div className="mt-2.5">
@@ -74,7 +74,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="email" className="block text-sm font-semibold leading-6 text-white">
               Email
             </label>
             <div className="mt-2.5">
@@ -88,7 +88,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-white">
               Téléphone
             </label>
             <div className="relative mt-2.5">
@@ -99,7 +99,7 @@ export default function Contact() {
                 <select
                   id="country"
                   name="country"
-                  className="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pink-600 sm:text-sm"
+                  className="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-rose-400 sm:text-sm"
                 >
                 <option>FR</option>
                 <option>ES</option>
@@ -122,7 +122,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="message" className="block text-sm font-semibold leading-6 text-white">
               Message
             </label>
             <div className="mt-2.5">
@@ -149,12 +149,12 @@ export default function Contact() {
                 />
               </Switch>
             </div>
-            <Label className="text-sm leading-6 text-gray-600">
+            <Label className="text-sm leading-6 text-white">
               En cochant, vous acceptez nos {' '}
-              <a href="#" className="font-semibold text-rose-400">
-                conditions d&apos;utilisation
+              <a href="#" className="font-semibold text-black hover:text-rose-400">
+                conditions d&apos;utilisation.
               </a>
-              .
+              
             </Label>
           </Field>
         </div>
