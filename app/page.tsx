@@ -21,7 +21,7 @@ export default function Home() {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             position: "relative",
-            zIndex: 1,
+            
           }}
           className="max-w-full py-32 sm:py-48 lg:py-56"
         >
